@@ -1,0 +1,37 @@
+.main{  
+   text-align: center;
+    background: #1e1e1e;  
+    height: 552px;
+    padding: 280px; 
+}
+
+.container{   
+    width: 500px; 
+    margin: auto;  
+}
+
+.first,.second{
+    display: flex;   
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+
+.timer{
+    border: 1px solid gray;
+    width: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    margin-left: 45%;
+    color: gray;
+    font-size: 28px;
+}
+
+button{
+    width: 200px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 54%;
+    background: lightgray;
+}
